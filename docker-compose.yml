@@ -1,0 +1,11 @@
+name: terraform-ai-agent
+
+services:
+  ai_agent_app:
+    build: .
+    container_name: terraform_ai_agent
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    restart: unless-stopped
