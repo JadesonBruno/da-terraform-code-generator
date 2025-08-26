@@ -25,6 +25,10 @@ Este projeto tem como objetivo criar um chatbot de IA para provisionamento de in
 ├── README.md                   # Documentação do projeto
 ```
 
+## Arquitetura
+
+![Arquitetura do sistema - Terraform AI Code Generator](pics/architecture.png)
+
 ## Pré-requisitos
 - Python >= 3.12 < 3.14
 - Docker e Docker Compose
