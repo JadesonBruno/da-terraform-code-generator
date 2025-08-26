@@ -3,6 +3,7 @@ name: terraform-ai-agent
 services:
   ai_agent_app:
     build: .
+    image: terraform-ai-agent:0.1.0
     container_name: terraform-ai-agent
     ports:
       - "8501:8501"
