@@ -84,4 +84,4 @@ Este projeto tem como objetivo criar um chatbot de IA para provisionamento de in
 MIT
 
 ## Autor
-[Jadeson Bruno Albuquerque da Silva](https://github.com/JadesonBruno)
+[Jadeson Bruno Albuquerque da Silva](https://www.linkedin.com/in/jadeson-silva/)
