@@ -46,11 +46,11 @@ Este projeto tem como objetivo criar um chatbot de IA para provisionamento de in
    ```
 4. Crie um arquivo `.env` na raiz do projeto e adicione sua chave OpenAI:
    ```env
-   OPENAI_API_KEY=sk-...
+   OPENAI_API_KEY=YOUR_OPENAI_API_KEY
    ```
 5. Execute a aplicação:
    ```bash
-   poetry run streamlit run app/app.py
+   poetry run streamlit run app/app.py --server.port=8501 --server.address=0.0.0.0
    ```
 6. Acesse [http://localhost:8501](http://localhost:8501) no navegador.
 
@@ -69,8 +69,7 @@ Este projeto tem como objetivo criar um chatbot de IA para provisionamento de in
 - O resultado é exibido na tela, pronto para ser copiado e utilizado.
 
 ## Personalização
-- Para alterar o comportamento do agente, edite o arquivo `agent.py`.
-- Para adicionar novas funcionalidades ou provedores, modifique o código em `app/app.py` e `agent.py`.
+- Para alterar o comportamento do agente, adicionar novas funcionalidades ou novos provedores, edite o arquivo `app/app.py`.
 
 ## Dicas e Solução de Problemas
 - Se o comando `streamlit` não for encontrado no Docker, certifique-se de que o Poetry está instalando as dependências corretamente e que `.venv` não está sendo copiado para o container.
