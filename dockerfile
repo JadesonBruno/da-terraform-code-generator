@@ -8,7 +8,8 @@ WORKDIR /usr/src/apps/terraform_ai_agent
 RUN pip install --no-cache-dir poetry
 
 # Copia os arquivos necessários
-COPY ./ ./
+COPY pyproject.toml poetry.lock ./
+COPY app/ ./app/
 
 # Instala as dependências
 RUN poetry install
